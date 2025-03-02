@@ -8,6 +8,7 @@ import java.time.LocalDate;
 public class ClientDto {
 
     private Long id;
+
     private String name;
     private String cpf;
     private Double income;
@@ -75,6 +76,7 @@ public class ClientDto {
     }
 
     public void setChildren(Integer children) {
+
         this.children = children;
     }
 
